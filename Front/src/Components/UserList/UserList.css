@@ -1,0 +1,100 @@
+#ContainerU {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(31, 2, 22, 0.3);
+  width: 90vw;
+  max-width: 600px;
+  min-width: 320px;
+  height: 160px;
+  border-radius: 30px;
+  margin-left: 50%;
+  margin-top: 20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#Pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+#avatar {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin-top: 10px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+#avatar:hover {
+  cursor: pointer;
+}
+
+#Delete {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+#Delete:hover {
+  cursor: pointer;
+}
+
+#InfoContainer {
+  color: whitesmoke;
+  min-width: 150px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+#btnNew, #btnRegister {
+  width: 200px;
+  height: 32px;
+  left: 85px;
+  top: 415px;
+  background: #dc7082;
+  color: #F7FFF7;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  -webkit-box-shadow: 4px 5px 7px -7px #000000;
+          box-shadow: 4px 5px 7px -7px #000000;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#btnNew:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=UserList.css.map */
